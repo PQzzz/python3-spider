@@ -111,7 +111,7 @@ class Spider(object):
 		self.get_pic_urls()
 
 if __name__ == '__main__':
-	page_count = input("请输入需要下载的页数(每页有十五个帖子）：")
+	page_count = input("请输入需要下载的页数：")
 	topic_count = input("请输入需要下载帖子的个数：")
 	pic_count = input("请输入需要下载每个帖子照片的张数：")
 	page_count = int(page_count)
